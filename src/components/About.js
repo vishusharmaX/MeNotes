@@ -43,7 +43,7 @@ const About = () => {
       delay : 0.2
     }} 
     >Meet Ours Developers</motion.h1>
-      <motion.div className="developer-container" {...options2} transition={{
+      {/* <motion.div className="developer-container" {...options2} transition={{
         delay : 0.4
       }}>
         <img
@@ -57,8 +57,8 @@ const About = () => {
            Frontend Development and Security
           </motion.p>
         </div>
-      </motion.div>
-      <motion.div className="developer-container"{...options2} transition={{
+      </motion.div> */}
+      {/* <motion.div className="developer-container"{...options2} transition={{
         delay : 0.6
       }}>
         <img
@@ -72,7 +72,7 @@ const About = () => {
            Backend Development and Error Handling
           </motion.p>
         </div>
-      </motion.div>
+      </motion.div> */}
       <motion.div className="developer-container"{...options2} transition={{
         delay : 0.8
       }}>
@@ -88,7 +88,7 @@ const About = () => {
           </motion.p>
         </div>
       </motion.div>
-      <motion.div className="developer-container"{...options2} transition={{
+      {/* <motion.div className="developer-container"{...options2} transition={{
         delay : 1
       }}>
         <img
@@ -102,8 +102,8 @@ const About = () => {
           Frontend Development & Security
           </motion.p>
         </div>
-      </motion.div>
-      <motion.div className="developer-container"{...options2} transition={{
+      </motion.div> */}
+      {/* <motion.div className="developer-container"{...options2} transition={{
         delay : 1.2
       }}>
         <img
@@ -117,7 +117,7 @@ const About = () => {
           UI and UX Developer
           </motion.p>
         </div>
-      </motion.div>
+      </motion.div> */}
      
     </div>
   );
